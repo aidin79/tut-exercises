@@ -28,3 +28,8 @@ sobel_y = cv.Sobel(res, cv.CV_64F, 0, 1, ksize=5)
 cv.imshow('sobel_y', sobel_y)
 cv.waitKey(0)
 cv.destroyAllWindows()
+
+edges = cv.Canny(image, 100, 250)
+cv.imshow('edges', edges)
+cv.waitKey(0)
+cv.destroyAllWindows()
