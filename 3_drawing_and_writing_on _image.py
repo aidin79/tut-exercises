@@ -3,7 +3,6 @@ import numpy as np
 
 image = cv.imread('test.jpeg')
 
-
 cv.line(image, (0,0), (100, 100), (0, 0, 255), thickness=2)
 cv.imshow('test', image)
 cv.waitKey(0)
